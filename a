@@ -1,2 +1,4 @@
-a
-
+git add *
+git commit -m "."
+git push gitee
+git push github
