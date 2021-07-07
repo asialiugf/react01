@@ -67,6 +67,7 @@ console.log('after create,obj3:', obj3)
 console.log(obj3.d)
 console.log(obj3.e)
 
+
 // after create,obj3: {}d: "88888"e: "hello"__proto__: Object
 // 5555
 // undefined
@@ -74,16 +75,10 @@ console.log(obj3.e)
 obj3.d = '88888'
 obj3.e = 'hello'
 
-// obj3: 
-// {d: "88888", e: "hello"}
-// d: "88888"
-// e: "hello"
-// __proto__:
-// a: "bar"
-// b: 100
-// c: "hhhhhhhhh"
-// d: "kkkkkk"
-// __proto__: Object
+console.log('----------------------------------------------')
+console.log(obj3.d)
+console.log(obj3.__proto__.d)
+
 
 console.log('obj:', obj)
 console.log('obj1:', obj1)
@@ -92,13 +87,12 @@ console.log('obj3:', obj3)
 
 
 
-
-
 console.log(obj3.a)
 console.log(obj3.b)
 console.log(obj3.c)
 console.log(obj3.d)
 console.log(obj3.e)
+
 
 // obj3:
 // {d: "88888", e: "hello"}

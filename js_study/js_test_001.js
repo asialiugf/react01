@@ -9,9 +9,8 @@ function haha(t) {
 }
 haha({ name: "ddd", age: 13 });
 var Point = /** @class */ (function () {
-    function Point() {
-    }
-    return Point;
+    function Point() { }
+    return Point
 }());
 
 let P = function P() { };
@@ -97,7 +96,7 @@ console.log('o5:', o5) // {a: "eeeeeeeeeeeeee", b: 1000000}
 let t001 = new Object([a, b, c])
 console.log('t001:', t001)
 
-let t002 = new Object({a,b,c})
+let t002 = new Object({ a, b, c })
 console.log('t002:', t002)
 
 
